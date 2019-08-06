@@ -1,0 +1,35 @@
+package main
+
+import (
+	"github.com/gin-gonic/gin"
+)
+
+// Multipart/Urlencoded绑定
+
+type LoginForm struct {
+	User     string `form:"user" binding:"required"`
+	Password string `form:"password" binding:"required"`
+}
+
+func main() {
+	router := gin.Default()
+	router.POST("/login", func(context *gin.Context) {
+		// 你可以使用显示绑定声明绑定 multipart form:
+		//var form LoginForm
+		//context.ShouldBindWith(&form,binding.Form)
+
+		// 或者简单地使用ShouldBind 方法自动绑定:
+		var form LoginForm
+		// 在这种情况下，将自动选择合适的绑定
+		if context.ShouldBind(&form) == nil {
+			if form.User == "user" && form.Password == "password" {
+				context.JSON(200, gin.H{
+					"status": "登录成功"})
+			} else {
+				context.JSON(401, gin.H{
+					"status": "unauthorized"})
+			}
+		}
+	})
+	router.Run(":8080")
+}
