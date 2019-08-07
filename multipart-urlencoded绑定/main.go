@@ -11,6 +11,10 @@ type LoginForm struct {
 	Password string `form:"password" binding:"required"`
 }
 
+/**
+测试：
+curl -v --form user=wpc --form password=wpc@123 http://127.0.0.1:8080/login
+*/
 func main() {
 	router := gin.Default()
 	router.POST("/login", func(context *gin.Context) {
@@ -22,7 +26,7 @@ func main() {
 		var form LoginForm
 		// 在这种情况下，将自动选择合适的绑定
 		if context.ShouldBind(&form) == nil {
-			if form.User == "user" && form.Password == "password" {
+			if form.User == "wpc" && form.Password == "wpc@123" {
 				context.JSON(200, gin.H{
 					"status": "登录成功"})
 			} else {
