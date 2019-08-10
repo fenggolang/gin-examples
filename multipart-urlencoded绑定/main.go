@@ -14,6 +14,7 @@ type LoginForm struct {
 /**
 测试：
 curl -v --form user=wpc --form password=wpc@123 http://127.0.0.1:8080/login
+post请求的时候，既可以使用Query,也可以使用Body,且选择对应的form-data和x-www-form-urlencoded程序都可以处理
 */
 func main() {
 	router := gin.Default()
