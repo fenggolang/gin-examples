@@ -1,0 +1,94 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "QeKwBtN2df+j+4stw3bQJ6yO4EY=",
+			"path": "github.com/gin-contrib/sse",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "A8+3Dr7pvqLoG8T1ttDY03sb+u4=",
+			"path": "github.com/gin-gonic/gin",
+			"revision": "461df9320ac22d12d19a4e93894c54dd113b60c3",
+			"revisionTime": "2019-07-27T01:06:37Z"
+		},
+		{
+			"checksumSHA1": "aw60+zrdHljLi87Opq74tg0Hors=",
+			"path": "github.com/gin-gonic/gin/binding",
+			"revision": "461df9320ac22d12d19a4e93894c54dd113b60c3",
+			"revisionTime": "2019-07-27T01:06:37Z"
+		},
+		{
+			"checksumSHA1": "GAHho8qMLbDfGoD4w7SX7ZRT56U=",
+			"path": "github.com/gin-gonic/gin/internal/json",
+			"revision": "461df9320ac22d12d19a4e93894c54dd113b60c3",
+			"revisionTime": "2019-07-27T01:06:37Z"
+		},
+		{
+			"checksumSHA1": "W9AUeI1417RP1ZuqoamB7mowTR0=",
+			"path": "github.com/gin-gonic/gin/render",
+			"revision": "461df9320ac22d12d19a4e93894c54dd113b60c3",
+			"revisionTime": "2019-07-27T01:06:37Z"
+		},
+		{
+			"checksumSHA1": "TyQ9IJiwTqKJ8iIEauot5duSR9g=",
+			"path": "github.com/gin-gonic/gin/testdata/protoexample",
+			"revision": "461df9320ac22d12d19a4e93894c54dd113b60c3",
+			"revisionTime": "2019-07-27T01:06:37Z"
+		},
+		{
+			"checksumSHA1": "Y2MOwzNZfl4NRNDbLCZa6sgx7O0=",
+			"path": "github.com/golang/protobuf/proto",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "ZTg5uBJioOsmrymI1LZjvoboQJ0=",
+			"path": "github.com/json-iterator/go",
+			"revision": "08047c174c6c03e8ec963a411bde1b6d1ee67b26",
+			"revisionTime": "2019-05-23T05:57:43Z"
+		},
+		{
+			"checksumSHA1": "p/g8QEmoH6/jBQNFU0q2P9NcNKI=",
+			"path": "github.com/mattn/go-isatty",
+			"revision": "da60ac76bf7019a8b005f8dd1ad9d1a0e6434155",
+			"revisionTime": "2019-07-08T05:43:38Z"
+		},
+		{
+			"checksumSHA1": "R7UwDjqiaLRoaEanrANwPOfbgN4=",
+			"path": "github.com/modern-go/concurrent",
+			"revision": "bacd9c7ef1dd9b15be4a9909b8ac7a4e313eec94",
+			"revisionTime": "2018-03-06T01:26:44Z"
+		},
+		{
+			"checksumSHA1": "SnVnj87vJdiHFJUcwdL03T0ZMhI=",
+			"path": "github.com/modern-go/reflect2",
+			"revision": "94122c33edd36123c84d5368cfb2b69df93a0ec8",
+			"revisionTime": "2018-07-18T01:23:57Z"
+		},
+		{
+			"checksumSHA1": "gK6bKsF5/yeNeODvKZsDLXbl6z0=",
+			"path": "github.com/ugorji/go/codec",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "c2ONI2rszEE8sTjVvc0egTAZ25U=",
+			"path": "golang.org/x/sys/unix",
+			"revision": "44b849a8bc13eb42e95e6c6c5e360481b73ec710",
+			"revisionTime": "2018-10-23T08:57:12Z"
+		},
+		{
+			"checksumSHA1": "q190bL03wQok3wVwYmMub2XhOiU=",
+			"path": "gopkg.in/go-playground/validator.v8",
+			"revision": "5f1438d3fca68893a817e4a66806cea46a9e4ebf",
+			"revisionTime": "2017-07-30T05:02:35Z"
+		},
+		{
+			"checksumSHA1": "oNqPrS2edE8peI3ah2INe379k8E=",
+			"path": "gopkg.in/yaml.v2",
+			"revision": "51d6538a90f86fe93ac480b35f37b2be17fef232",
+			"revisionTime": "2018-11-15T11:05:04Z"
+		}
+	],
+	"rootPath": "github.com/fenggolang/gin-examples"
+}
